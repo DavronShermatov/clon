@@ -1,11 +1,11 @@
 // clonlash haqida
 
-// let x=5;
-// let y=x;
+let x=5;
+let y=x;
 
-// y=y+4;
+y=y+4;
 
-// console.log(x,y);
+console.log(x,y);
 
   const number = {
             x:1,
@@ -16,24 +16,24 @@
             },
         }
 
-// const newNumber= Object.assign({},number);
+const newNumber= Object.assign({},number);
 
-// newNumber.y=8;
-// console.log(newNumber);
-// console.log(number);
+newNumber.y=8;
+console.log(newNumber);
+console.log(number);
 
-// const arr=[2,3,4,5,6];
-// const newArr= arr.slice();
-// newArr[2]=15;
-// console.log(newArr);
-// console.log(arr);
+const arr=[2,3,4,5,6];
+const newArr= arr.slice();
+newArr[2]=15;
+console.log(newArr);
+console.log(arr);
 
-// // Spread bu ... 3 ta nuqta bilan arraylarni bir biriga qo'shish uchun ishlatiladi
-// const num=[2,3,4,5,6];
-// const car=["lada", "lexus","chevrolet","bmw","mercedes"];
+// Spread bu ... 3 ta nuqta bilan arraylarni bir biriga qo'shish uchun ishlatiladi
+const num=[2,3,4,5,6];
+const car=["lada", "lexus","chevrolet","bmw","mercedes"];
 
-// const AllArr = [...car, ...num];
-// console.log(AllArr);
+const AllArr = [...car, ...num];
+console.log(AllArr);
 function objnusxa(obj){
     let nusxaobj={};
     for(let key in obj){
